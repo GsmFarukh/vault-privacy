@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vault: Hide Photos &amp; Videos - Privacy Policy</title>
+<style>
+  :root{--bg:#f6f5fb;--card:#fff;--text:#1a1b2e;--sec:#5b5f7a;--pri:#5a35e8;--line:#e4e2f1}
+  @media (prefers-color-scheme:dark){:root{--bg:#0e0f1c;--card:#181a2b;--text:#f2f3fa;--sec:#a2a6be;--pri:#a18cff;--line:#2d3050}}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+  main{max-width:760px;margin:0 auto;padding:28px 18px 60px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px 22px 8px;margin:0 0 16px}
+  h1{font-size:28px;line-height:1.25;margin:0 0 6px}
+  h2{font-size:19px;margin:26px 0 8px;color:var(--pri)}
+  p,li{color:var(--text)} .sec{color:var(--sec);font-size:14px}
+  ul{padding-left:22px} li{margin:4px 0}
+  table{width:100%;border-collapse:collapse;font-size:15px;margin:8px 0 14px}
+  th,td{border-top:1px solid var(--line);padding:9px 8px;text-align:left;vertical-align:top}
+  th{color:var(--sec);font-weight:600}
+  .tldr{border-left:4px solid var(--pri);background:var(--card);border-radius:12px;padding:14px 16px;margin:18px 0}
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="sec">App: <b>Vault: Hide Photos &amp; Videos</b> (package <code>com.gsmfarukh.vault</code>)<br>Last updated: 5 November 2026</p>
+
+  <div class="tldr">
+    <b>In short:</b> Vault does <b>not</b> collect, upload, sell or share your personal data. The app has <b>no Internet permission</b>, so it cannot send anything off your phone. Everything you hide stays on your device, encrypted.
+  </div>
+
+  <div class="card">
+  <h2>1. Who we are</h2>
+  <p>Vault is developed by <b>Md. Farukh Ahamed (GSM Farukh)</b>. If you have a question about this policy or about your privacy, write to <b>[docmax916@gmail.com]</b>.</p>
+
+  <h2>2. Information the app handles</h2>
+  <p>Vault works completely on your device. It handles the following, and none of it is sent to us or to anyone else:</p>
+  <ul>
+    <li><b>Files you choose to hide</b> (photos, videos, documents). They are encrypted with AES-256 and stored in the app's private storage. The encryption key is created on your phone and kept in the Android Keystore.</li>
+    <li><b>Details about those files</b>, such as file names, sizes, dates and the folder names you create. They are kept in the app's private storage on your device.</li>
+    <li><b>Your lock</b> (PIN, password or pattern) and your <b>recovery answers</b>. They are never stored as plain text, only as salted, slow hashes.</li>
+    <li><b>Intruder selfie (optional)</b>: after several wrong lock attempts, the app can take a photo with the front camera. The photo is saved encrypted inside your vault and is never sent anywhere.</li>
+    <li><b>App settings</b>, such as the sort order and whether the Intruder selfie is on.</li>
+  </ul>
+
+  <h2>3. Permissions and why we ask for them</h2>
+  <table>
+    <tr><th>Permission</th><th>Why</th></tr>
+    <tr><td>Photos and videos (READ_MEDIA_IMAGES, READ_MEDIA_VIDEO; on older Android versions: storage access)</td><td>So you can pick photos and videos from your gallery to hide, and restore them back to your gallery later. Files are only read when you choose to hide them.</td></tr>
+    <tr><td>Camera</td><td>Only for the optional Intruder selfie. You can switch it on or off on the Security screen.</td></tr>
+    <tr><td>Biometric (USE_BIOMETRIC)</td><td>To let you unlock with your fingerprint or face. Android handles the biometric check; Vault never receives or stores your fingerprint or face data.</td></tr>
+  </table>
+  <p>Vault does <b>not</b> request the Internet permission.</p>
+
+  <h2>4. Security</h2>
+  <ul>
+    <li>Hidden files are encrypted with AES-256 and protected by an integrity check, so a changed or damaged file is detected.</li>
+    <li>Screenshots and screen recording are blocked inside the app, and the recent-apps preview is blank.</li>
+    <li>The lock has a growing waiting time after wrong attempts.</li>
+    <li>Android's own cloud backup is switched off for this app.</li>
+  </ul>
+
+  <h2>5. Backup (your choice)</h2>
+  <p>You can create a backup of your vault. The backup file is encrypted with a key made from a password that you choose. The password itself is never stored. The backup is saved on your device in a place you choose (or the default folder), and Vault does not upload it anywhere. If you copy the file to another place or another device, that is your decision and outside the app.</p>
+
+  <h2>6. Sharing and third parties</h2>
+  <p>We do not share any data, because we do not collect any. Vault contains <b>no ads, no analytics and no third-party SDKs</b> that collect data. If we ever add ads or paid features, this policy will be updated before that version is released.</p>
+
+  <h2>7. Keeping and deleting your data</h2>
+  <ul>
+    <li>All data stays on your device until you delete it.</li>
+    <li>You can restore any file to your gallery or delete it inside the app. "Clear all data" in Settings removes everything.</li>
+    <li>If you uninstall the app, its data and encryption keys are removed, and hidden files that were not restored or backed up <b>cannot be recovered</b>.</li>
+    <li>Backup files you created stay where you saved them until you delete them yourself.</li>
+    <li>We cannot reset your lock or recover your files, because we never have your key or your lock code.</li>
+  </ul>
+
+  <h2>8. Children</h2>
+  <p>Vault is a general utility app and is not directed to children under 13. The app collects no personal information from anyone.</p>
+
+  <h2>9. Your rights</h2>
+  <p>Because we do not collect or hold your personal data, there is no personal data about you on our side to access, correct or delete. All data is under your control on your own device.</p>
+
+  <h2>10. Changes to this policy</h2>
+  <p>If this policy changes, we will publish the new version at this address and update the date at the top.</p>
+
+  <h2>11. Contact</h2>
+  <p>Md. Farukh Ahamed (GSM Farukh) &middot; <b>[docmax916@gmail.com]</b></p>
+  </div>
+</main>
+</body>
+</html>
